@@ -1,4 +1,8 @@
-ul {
+#navigation {
+	width: 100%;
+}
+
+#navigation ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -8,12 +12,12 @@ ul {
     display: inline-block;
 }
 
-li {
+#navigation li {
    display: inline;
    padding: 10%;
 }
 
-li a {
+#navigation li a {
     display: inline;
     color: white;
     text-align: center;
@@ -21,6 +25,6 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+#navigation li a:hover {
     background-color: #111;
 }
